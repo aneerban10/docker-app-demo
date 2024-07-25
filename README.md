@@ -18,31 +18,33 @@
 
 ### Create an index.html file with the following content:
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>My App</title>
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100vh;
-                    margin: 0;
-                    background-color: #f4f4f4;
-                }
-                h1 {
-                    color: #333;
-                }
-            </style>
-        </head>
-        <body>
-            <h1>Hello, World!</h1>
-        </body>
-        </html>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>My App</title>
+	    <style>
+	        body {
+	            font-family: Arial, sans-serif;
+	            
+	            justify-content: center;
+	            text-align: center;
+	            height: 100vh;
+	            margin: 0;
+	            background-color: #f4f4f4;
+	        }
+	        h1 {
+	            color: #333;
+	        }
+	    </style>
+	</head>
+	<body>
+	    <h1>Hello IITJ!</h1>
+	    <h3>This is Assignment 1 of VCC - Docker Application Deployment</h3>
+	    <h5>Deployed on Docker<br>Aneerban Chowdhury (G23AI2059) - PGDDE @ IITJ</h5>
+	</body>
+	</html>
 
 ## Step 3. Create a Dockerfile
 
