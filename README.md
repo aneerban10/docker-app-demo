@@ -56,13 +56,13 @@
         Build the Docker image:
 
 ### Build the App
-        docker build -t myapp .
+        docker build -t myapp
 
 ## Step 4: Run the Docker container:
         docker run -p 8080:80 myapp
         
 ## Step 5: Test the Application
-        Navigate to http://localhost:8080.
+        Navigate to http://localhost:8080
 
 ## Author Details
         Roll Number: G23AI2059
