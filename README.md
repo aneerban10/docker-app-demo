@@ -8,7 +8,7 @@
 2. Run the installer and follow the instructions.
 3. Start Docker Desktop.
 4. Verify the installation by running the following command in Command Prompt or PowerShell:
-	docker --version
+			docker --version
 
 ## Step 2: Create a Simple HTML and CSS Web Application
 
