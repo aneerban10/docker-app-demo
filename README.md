@@ -52,6 +52,9 @@
 
 	FROM nginx:alpine
 	COPY index.html /usr/share/nginx/html/index.html
+This is build from scratch as we start with a minimal base image (nginx:alpine), which is essentially starting from scratch because we are not using a fully configured web server or application container.
+We are also using custom configuration i.e. adding our own HTML file to the base image.
+Also we build the Docker image from Dockerfile to run a container from that image.
 
 ### Build the App
 	docker build -t myapp
