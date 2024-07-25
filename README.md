@@ -12,7 +12,7 @@
 
 ## Step 2: Create a Simple HTML and CSS Web Application
 
-### Create a project directory:
+### Create a project directory where your HTML and DockerFile will reside:
         mkdir docker-app
         cd docker-app
 
